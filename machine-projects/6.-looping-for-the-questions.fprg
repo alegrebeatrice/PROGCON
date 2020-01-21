@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="NEC"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-01-07 04:46:00 PM"/>
+        <attribute name="created" value="TkVDO05FQy1QQzsyMDIwLTAxLTA3OzA0OjMxOjA0IFBNOzE4ODg="/>
+        <attribute name="edited" value="TkVDO05FQy1QQzsyMDIwLTAxLTA3OzA0OjQ2OjAwIFBNOzE7MTk5OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="guest" type="Integer" array="False" size=""/>
+            <output expression="&quot;what is 2+2?&quot;" newline="True"/>
+            <input variable="guest"/>
+            <while expression="guest &lt;&gt; 4">
+                <output expression="&quot;the guest isnt right,try again.&quot;" newline="True"/>
+                <input variable="guest"/>
+            </while>
+            <output expression="&quot;congratulation&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
