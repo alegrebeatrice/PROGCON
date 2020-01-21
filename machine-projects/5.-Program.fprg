@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="NEC"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-01-15 07:17:55 PM"/>
+        <attribute name="created" value="TkVDO05FQy1QQzsyMDIwLTAxLTA3OzAzOjU3OjUwIFBNOzE4OTY="/>
+        <attribute name="edited" value="QmFjYWxhbmdjbyBGYW1pbHk7IEpPWUNFQkFDQUxBTkdDTzsgMjAyMC0wMS0xNTsgMDc6MTc6NTUgUE07IDQwODI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1" type="Integer" array="False" size=""/>
+            <declare name="num2" type="Integer" array="False" size=""/>
+            <output expression="&quot;PLEASE ENTER THE NUM1 AND NUM2&quot;"/>
+            <input variable="num1"/>
+            <input variable="num2"/>
+            <assign variable="num1" expression="5"/>
+            <assign variable="num2" expression="10"/>
+            <if expression="num1 &gt; num2">
+                <then>
+                    <output expression="num2 &amp;&quot;is biggest&quot;"/>
+                </then>
+                <else>
+                    <output expression="num1 &amp;&quot;is biggest&quot;"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
