@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ROSEANN"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-12-21 11:29:27 PM"/>
+        <attribute name="created" value="Uk9TRUFOTjtST1NFQU5OLVBDOzIwMTktMTItMjE7MTA6Mzg6NDQgUE07MjU0Mg=="/>
+        <attribute name="edited" value="Uk9TRUFOTjtST1NFQU5OLVBDOzIwMTktMTItMjE7MTE6Mjk6MjcgUE07MTsyNjUy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Numbers" type="Integer" array="False" size=""/>
+            <declare name="oddoreven" type="Integer" array="False" size=""/>
+            <output expression="&quot;PLEASE ENTER A NUMBER&quot;" newline="True"/>
+            <input variable="numbers"/>
+            <assign variable="ODDOREVEN" expression="numbers % 2"/>
+            <if expression="oddoreven == 0">
+                <then>
+                    <output expression="numbers &amp;&quot;is even&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="numbers &amp;&quot;is odd&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
