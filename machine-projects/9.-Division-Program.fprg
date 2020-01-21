@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Bacalangco Family"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-01-15 06:40:29 PM"/>
+        <attribute name="created" value="QmFjYWxhbmdjbyBGYW1pbHk7IEpPWUNFQkFDQUxBTkdDTzsgMjAyMC0wMS0xNTsgMDY6MzM6NDAgUE07IDQwNzM="/>
+        <attribute name="edited" value="QmFjYWxhbmdjbyBGYW1pbHk7IEpPWUNFQkFDQUxBTkdDTzsgMjAyMC0wMS0xNTsgMDY6NDA6MjkgUE07IDQwNzg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, num2" type="Real" array="False" size=""/>
+            <declare name="A" type="Real" array="False" size=""/>
+            <output expression="&quot;Hello welcome to Division Program&quot;"/>
+            <input variable="num1"/>
+            <input variable="num2"/>
+            <assign variable="A" expression="Num1/Num2"/>
+            <output expression="&quot;the answer is&quot;&amp;A"/>
+        </body>
+    </function>
+</flowgorithm>
