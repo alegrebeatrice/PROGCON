@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Althea Amor"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-01-15 11:07:23 PM"/>
+        <attribute name="created" value="QWx0aGVhIEFtb3I7TEFQVE9QLU84QjE4S1BWOzIwMjAtMDEtMTU7MTA6MzI6MzAgUE07MzM0Mg=="/>
+        <attribute name="edited" value="QWx0aGVhIEFtb3I7TEFQVE9QLU84QjE4S1BWOzIwMjAtMDEtMTU7MTE6MDc6MjMgUE07NDszNDU4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="hours, minutes, seconds" type="Integer" array="False" size=""/>
+            <declare name="midday" type="String" array="False" size=""/>
+            <output expression="&quot;Enter hours:&quot;" newline="True"/>
+            <input variable="hours"/>
+            <output expression="&quot;Enter minutes:&quot;" newline="True"/>
+            <input variable="minutes"/>
+            <output expression="&quot;Enter seconds:&quot;" newline="True"/>
+            <input variable="seconds"/>
+            <output expression="&quot;Enter time of the day (am or pm):&quot;" newline="True"/>
+            <input variable="midday"/>
+            <comment text="lowercase input only"/>
+            <if expression="midday == &quot;pm&quot; &amp;&amp; hours != 12">
+                <then>
+                    <assign variable="hours" expression="hours + 12"/>
+                </then>
+                <else>
+                    <if expression="midday == &quot;am&quot; &amp;&amp; hours == 12">
+                        <then>
+                            <assign variable="hours" expression="0"/>
+                        </then>
+                        <else/>
+                    </if>
+                </else>
+            </if>
+            <output expression="leading(hours) &amp; &quot;:&quot; &amp; leading(minutes) &amp; &quot;:&quot; &amp; leading(seconds)" newline="True"/>
+        </body>
+    </function>
+    <function name="leading" type="String" variable="time">
+        <parameters>
+            <parameter name="x" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="time" type="String" array="False" size=""/>
+            <assign variable="time" expression="toString(x)"/>
+            <if expression="x &lt; 10">
+                <then>
+                    <assign variable="time" expression="&quot;0&quot;&amp;time"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
