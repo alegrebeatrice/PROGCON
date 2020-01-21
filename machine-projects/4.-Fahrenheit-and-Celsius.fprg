@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ROSEANN"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-01-15 07:13:22 PM"/>
+        <attribute name="created" value="Uk9TRUFOTjtST1NFQU5OLVBDOzIwMTktMTItMjI7MTI6MjA6MzEgQU07MjUxNw=="/>
+        <attribute name="edited" value="QmFjYWxhbmdjbyBGYW1pbHk7IEpPWUNFQkFDQUxBTkdDTzsgMjAyMC0wMS0xNTsgMDc6MTM6MjIgUE07IDQwNzI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="fahrenheit" type="Integer" array="False" size=""/>
+            <declare name="celsius" type="Integer" array="False" size=""/>
+            <output expression="&quot;ENTER THE FAHRENHEIT AND CELSIUS&quot;"/>
+            <input variable="FAHRENHEIT"/>
+            <input variable="CELSIUS"/>
+            <declare name="answer" type="Integer" array="False" size=""/>
+            <assign variable="fahrenheit" expression="12"/>
+            <assign variable="celsius" expression="12"/>
+            <assign variable="answer" expression="fahrenheit * celsius"/>
+            <output expression="&quot;The answer is celsius&quot; &amp; answer"/>
+        </body>
+    </function>
+</flowgorithm>
