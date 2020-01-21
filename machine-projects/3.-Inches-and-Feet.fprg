@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ROSEANN"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-01-15 07:10:35 PM"/>
+        <attribute name="created" value="Uk9TRUFOTjtST1NFQU5OLVBDOzIwMTktMTItMjI7MTI6MjA6MzEgQU07MjUxNw=="/>
+        <attribute name="edited" value="QmFjYWxhbmdjbyBGYW1pbHk7IEpPWUNFQkFDQUxBTkdDTzsgMjAyMC0wMS0xNTsgMDc6MTA6MzUgUE07IDQwNzM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="feet" type="Integer" array="False" size=""/>
+            <declare name="inches" type="Integer" array="False" size=""/>
+            <output expression="&quot;please eneter feet and inches&quot;"/>
+            <input variable="Feet"/>
+            <input variable="inches"/>
+            <assign variable="feet" expression="12"/>
+            <assign variable="inches" expression="12"/>
+            <assign variable="answer" expression="feet * inches"/>
+            <output expression="&quot;The answer is inch&quot; &amp; answer"/>
+        </body>
+    </function>
+</flowgorithm>
