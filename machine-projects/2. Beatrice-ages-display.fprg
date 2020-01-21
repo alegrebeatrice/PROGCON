@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ROSEANN"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-12-22 12:56:00 AM"/>
+        <attribute name="created" value="Uk9TRUFOTjtST1NFQU5OLVBDOzIwMTktMTItMjI7MTI6NTM6MzYgQU07MjUyOA=="/>
+        <attribute name="edited" value="Uk9TRUFOTjtST1NFQU5OLVBDOzIwMTktMTItMjI7MTI6NTY6MDAgQU07MTsyNjMw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Beatrice" type="Integer" array="False" size=""/>
+            <assign variable="Beatrice" expression="18"/>
+            <output expression="&quot;Beatrice is: &quot; &amp; Beatrice &amp; &quot;years of age.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
